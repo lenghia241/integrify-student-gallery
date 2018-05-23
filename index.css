@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    background-image: url('./background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    width: 20%;
+    margin: auto;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+.wrapper, .student {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.wrapper {
+    margin: 2rem 0 0 2rem;
+}
+
+.buttonFunction {
+    width: 20rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonFunction button{
+    margin:1rem;
+    padding:0.5rem 1rem;
+    background-color: #BE8F2E;
+    border: none;
+}
+
+.studentInfo {
+    background-color: #BE8F2E;
+    width: 35rem;
+    color: #333;
+}
+
+.otherInfo {
+    padding: 2rem;
+}
+
+.studentName {
+    width: 100%;
+    background-color:#333;
+    color: white;
+}
+
+.studentName h1 {
+    margin: 0;
+    padding: 2rem;
+}
+
+.student img {
+    width: 20rem;
+    border: 4px solid #BE8F2E;
+}
+
+.hide {
+    display: none;
+}
